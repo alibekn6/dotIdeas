@@ -1,1 +1,3 @@
-console.log('Hello')
+setTimeout(() => {
+  console.log('Hello')
+}, 1000)
