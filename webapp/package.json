@@ -1,5 +1,5 @@
 {
-  "name": "webapp",
+  "name": "@dotideas/webapp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +11,10 @@
     "prettify": "prettier --loglevel warn --cache --write '{src/**/*,*}.{ts,tsx,js,json,yml,scss}' '!**/{node_modules,dist}/**/*'"
   },
   "dependencies": {
+    "@dotideas/backend": "workspace:*",
+    "@tanstack/react-query": "^5.66.0",
+    "@trpc/client": "^10.45.2",
+    "@trpc/react-query": "^10.45.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
